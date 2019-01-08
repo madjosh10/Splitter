@@ -12,7 +12,8 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
-
+    var funny: String?
+    
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = detailItem {
